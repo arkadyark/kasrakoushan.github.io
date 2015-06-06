@@ -1,4 +1,5 @@
-.nav > li > a {
+.nav a {
+  position: relative;
   display: inline-block;
 }
 
