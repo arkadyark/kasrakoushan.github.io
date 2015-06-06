@@ -3,7 +3,6 @@ body {
 }
 
 .nav li {
-  position: relative;
   display: inline-block;
 }
 
