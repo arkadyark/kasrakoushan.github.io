@@ -1,6 +1,6 @@
-.nav a {
+.nav li {
   position: relative;
-  display: block;
+  display: inline-block;
 }
 
 .jumbotron .container {
