@@ -2,11 +2,6 @@ body {
   font-family: 'Lato', sans-serif;
 }
 
-.nav li {
-  position: relative;
-  display: inline-block;
-}
-
 .jumbotron .container {
   position: relative;
   top: 10px;
