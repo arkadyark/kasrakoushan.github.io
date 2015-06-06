@@ -12,6 +12,12 @@
   right: auto;
 }
 
+.jumbotron h1 {
+  position: relative;
+  left: auto;
+  right: auto;
+}
+
 .jumbotron {
   height: 200px;
   background-color: #FFF5E0;
