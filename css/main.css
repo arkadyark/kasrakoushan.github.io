@@ -8,3 +8,7 @@
   left: auto;
   right: auto;
 }
+
+.jumbotron {
+  height: 200px;
+}
