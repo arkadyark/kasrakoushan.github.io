@@ -1,5 +1,5 @@
 .nav > li > a {
-  display: inline;
+  display: inline-block;
 }
 
 .jumbotron .container {
