@@ -8,14 +8,8 @@
 .jumbotron .container {
   position: relative;
   top: 10px;
-  left: 20px;
-  right: auto;
-}
-
-.jumbotron h1 {
-  position: relative;
-  left: auto;
-  right: auto;
+  padding-left: auto;
+  padding-right: auto;
 }
 
 .jumbotron {
