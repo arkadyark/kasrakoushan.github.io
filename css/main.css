@@ -1,3 +1,10 @@
 .nav li {
   display: inline;
 }
+
+.jumbotron .container {
+  position: relative;
+  top: 100px;
+  left: auto;
+  right: auto;
+}
