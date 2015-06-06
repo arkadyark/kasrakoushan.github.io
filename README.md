@@ -1,2 +1,2 @@
-# kasrakoushan.github.io
-This is the repository for my SLOG in CSC148.
+# koush.me
+This is my personal website.
