@@ -8,11 +8,11 @@
 .jumbotron .container {
   position: relative;
   top: 10px;
-  padding-left: auto;
-  padding-right: auto;
 }
 
 .jumbotron {
   height: 200px;
   background-color: #FFF5E0;
+  padding-left: 200px;
+  padding-top: 100px;
 }
