@@ -1,13 +1,20 @@
 .nav li {
-  position: relative;
-  display: inline-block;
-  padding-right: 20px;
-  padding-top: 10px;
+    position: relative;
+    display: inline;
+    padding-right: 20px;
+}
+
+a:link {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover { 
+    color: aqua;
 }
 
 .jumbotron .container {
   position: relative;
-  top: 10px;
 }
 
 .jumbotron {
@@ -15,4 +22,19 @@
   background-color: #FFF5E0;
   padding-left: 200px;
   padding-top: 100px;
+}
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: floralwhite;
+}
+.nav ul {
+    padding-left: 200px;
+}
+
+.nav {
+    background-color: ghostwhite;
+    position: relative;
+    padding-top: 2px;
+    padding-bottom: 2px;
 }
