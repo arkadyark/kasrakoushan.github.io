@@ -1,27 +1,38 @@
 .nav li {
     position: relative;
     display: inline;
-    padding-right: 20px;
+    padding-right: 50px;
 }
 
 a:link {
-    color: black;
+    color: white;
     text-decoration: none;
 }
 
 a:hover { 
-    color: aqua;
+    color: gainsboro;
 }
 
 .jumbotron .container {
-  position: relative;
+    position: relative;
+}
+
+.jumbotron h1 {
+    color: white;
+    text-shadow: 0px 4px 4px #404040;
+}
+
+.jumbotron p {
+    color: white;
+    text-shadow: 0px 4px 4px #404040;
 }
 
 .jumbotron {
-  height: 200px;
-  background-color: #FFF5E0;
-  padding-left: 200px;
-  padding-top: 100px;
+    height: 150px;
+    background-image: url(http://upload.wikimedia.org/wikipedia/commons/8/85/Mystic_mountaindddd.jpg);
+    background-size: cover;
+    padding-left: 200px;
+    padding-top: 50px;
 }
 
 body {
@@ -33,12 +44,14 @@ body {
 }
 
 .nav {
-    background-color: ghostwhite;
+    background-color: black;
     position: relative;
     padding-top: 2px;
     padding-bottom: 2px;
 }
 
+
+
 .content {
-    padding-left: 100px;
+    padding-left: 200px;
 }
