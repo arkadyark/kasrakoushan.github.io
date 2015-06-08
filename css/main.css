@@ -13,6 +13,10 @@ a:hover {
     color: gainsboro;
 }
 
+a:visited {
+    color: white;
+}
+
 .jumbotron .container {
     position: relative;
 }
