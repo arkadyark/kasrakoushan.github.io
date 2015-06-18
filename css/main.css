@@ -76,9 +76,13 @@ body {
 .navplain a {
     text-transform: uppercase;
     color: coral;
-    padding: 0 20 0 4;
 }
 
 .navplain li {
-    display: inline;
+    display: inline-block;
+    margin: 0 15 0 15;
+}
+
+.navplain ul {
+    padding-left: 0px;
 }
