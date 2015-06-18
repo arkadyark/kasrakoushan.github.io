@@ -76,8 +76,7 @@ body {
 .navplain a {
     text-transform: uppercase;
     color: coral;
-    padding-left: 60;
-    padding-right: 60;
+    padding: 0 20 0 4;
 }
 
 .navplain li {
