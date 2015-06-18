@@ -17,10 +17,6 @@ a:hover {
     color: gainsboro;
 }
 
-.jumbotron .container {
-    position: relative;
-}
-
 .jumbotron h1 {
     color: white;
     text-shadow: 0px 4px 4px #404040;
@@ -41,8 +37,8 @@ a:hover {
 
 body {
     font-family: 'Source Sans Pro', sans-serif;
-    background-color: floralwhite;
 }
+
 .nav ul {
     padding-left: 200px;
 }
@@ -54,8 +50,36 @@ body {
     padding-bottom: 2px;
 }
 
-
-
 .content {
     padding-left: 200px;
+}
+
+.errorpage {
+    height: 100vh;
+    background-image: url(/cheesed.jpg);
+    background-sze: cover;
+    background-repeat: no-repeat;
+    padding-left: auto;
+}
+
+
+.jumboplain {
+    margin: auto auto auto auto;
+    width: 400px;
+    height: 400px;
+}
+
+.jumboplain p {
+    text-align: justify;
+}
+
+.navplain a {
+    text-transform: uppercase;
+    color: coral;
+    padding-left: 60;
+    padding-right: 60;
+}
+
+.navplain li {
+    display: inline;
 }
