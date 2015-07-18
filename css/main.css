@@ -17,11 +17,10 @@ body {
 }
 
 .errorpage {
-    height: 100vh;
+    width: auto;
+    height: 500px;
     background-image: url(/cheesed.jpg);
-    background-sze: cover;
-    background-repeat: no-repeat;
-    padding-left: auto;
+    background-size: cover;
 }
 
 
