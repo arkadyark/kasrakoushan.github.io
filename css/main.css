@@ -22,16 +22,23 @@ body {
     color: white;
 }
 
-.navplain a {
-    padding-left: 10px;
-    padding-right: 10px;
+
+a {
     color: white;
+}
+
+a:hover {
+    color: khaki;
     text-decoration: none;
 }
 
-.navplain a:hover {
+.navplain a {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.navplain a:hover{
     text-transform: uppercase;
-    color: khaki;
     padding-left: 15px;
     padding-right: 15px;
 }
