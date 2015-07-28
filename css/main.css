@@ -28,7 +28,7 @@ body {
 }
 
 .jumboplain a:hover {
-    text-color: khaki;
+    color: khaki;
     text-decoration: none;
 }
 
@@ -57,12 +57,14 @@ body {
     box-shadow: 0px 0px 10px #404040;
 }
 
-.resume a, .resume a:visited {
+.resume a, .resume a:visited, .highlight a, .hightlight a:visited {
     text-decoration: none;
     color: black;
 }
 
-.resume a:hover {
+
+
+.resume a:hover, .highlight a:hover {
     color: crimson;
 }
 
