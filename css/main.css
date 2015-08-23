@@ -3,13 +3,56 @@ body {
     background-color: brown;
 }
 
-.errorpage {
-    width: auto;
-    height: 500px;
-    background-image: url(/cheesed.jpg);
-    background-size: cover;
+textarea {
+    resize: none;
 }
 
+.calendar {
+    margin: 20px auto 0px auto;
+    padding: 5px;
+    width: 600px;
+    background-color: aliceblue;
+    border-radius: 5%;
+    box-shadow: 0px 5px 10px #404040;
+}
+
+.calendar h1 {
+    text-align: center;
+    font-size: 
+}
+
+.calendar img {
+    width: 600px;
+    margin-bottom: 10px;
+}
+
+.calendar .button {
+    margin: 10px auto 0px auto;
+    text-align: center;
+    width: 60px;
+    padding-top: 5px;
+    height: 28px;
+    border-radius: 10%;
+    background-color: #2A85C1;
+    box-shadow: 1px 1px 1px #404040;
+}
+
+.calendar a, a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+.calendar .button:hover {
+    background-color: #1277BA;
+}
+
+.calendar .button:active {
+    box-shadow: none;
+}
+
+.calendar-input td {
+    padding: 4px;
+}
 
 .jumboplain {
     margin: auto auto auto auto;

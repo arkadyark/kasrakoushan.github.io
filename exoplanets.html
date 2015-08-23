@@ -6,31 +6,53 @@
         <title> Exoplanet Calendar </title>
     </head>
     <body>
-        <div class="jumboplain">
-            <div class="container" align="center">
-                <img align="center" src="/kasra.jpg" style="height: 200px; width: 200px; border: 4px solid white; margin-top: 20px;"/>
-                <h1 style="color: white">Hey! I'm Kasra.</h1>
-                <p> Welcome to my site. I'm a <a href="http://utoronto.ca">university</a> student studying math and physics. I love learning about anything, be it bioinformatics, history, cognitive science, or web development. I also like to dance and write. </p>
-                <p>Things are kind of under construction right now, so please check back soon!</p>
-            </div>
-            <div class="navplain" align="center">
-                <table>
+        <div class="calendar">
+            <h3 align="center"> Online Exoplanet Calendar</h3>
+            <img class="image" src="http://www.burrburton.org/wp-content/uploads/2015/06/exoplanet.jpg" />
+            <p> Enter the mass and radius measurements for a given planet to find estimates of its pressure and density profiles.</p>
+            <div class="calendar-input">
+                <table align="center">
                     <tr>
                         <td>
-                            <a href="mailto:kasra.koushan@gmail.com">Contact</a>
+                            <p> Mass: </p>
                         </td>
                         <td>
-                            <a href="resume.pdf">Resume</a>
+                            <textarea rows="1" cols="8"> </textarea>
+                        </td>
+                        <td> 
+                            <p> ± </p>
                         </td>
                         <td>
-                            <a href="http://www.github.com/kasrakoushan">Github</a>
+                            <textarea rows="1" cols="8"> </textarea>
+                        </td>
+                        <td> <p lang="latex">M_{\oplus}</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p> Radius: </p>
                         </td>
                         <td>
-                            <a href="https://ca.linkedin.com/in/kasrakoushan">LinkedIn</a>
+                            <textarea rows="1" cols="8"> </textarea>
+                        </td>
+                        <td> 
+                            <p> ± </p>
+                        </td>
+                        <td>
+                            <textarea rows="1" cols="8"> </textarea>
+                        </td>
+                        <td>
+                            <p lang="latex"> R_{\oplus} </p>
                         </td>
                     </tr>
                 </table>
             </div>
+            <div class="button">
+                <a href="#"> Submit </a>
+            </div>
         </div>
+        <script type="text/javascript" src="http://latex.codecogs.com/latexit.js"></script>
+        <script src="jquery-1.11.3.js"></script>
+        <script src="app.js"></script>
     </body>
 </html>
