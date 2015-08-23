@@ -8,7 +8,7 @@ textarea {
 }
 
 .calendar {
-    margin: 20px auto 0px auto;
+    margin: 20px auto 20px auto;
     padding: 5px;
     width: 600px;
     background-color: aliceblue;
@@ -29,12 +29,33 @@ textarea {
 .calendar .button {
     margin: 10px auto 0px auto;
     text-align: center;
-    width: 60px;
+    width: 90px;
     padding-top: 5px;
     height: 28px;
     border-radius: 10%;
     background-color: #2A85C1;
     box-shadow: 1px 1px 1px #404040;
+}
+
+.calendar-input td {
+    padding: 5px;
+}
+
+.calendar .result {
+    width: 0px;
+}
+
+.calendar .loading {
+    width: 600px;
+    height: 60px;
+    background-color: grey;
+    padding-top: 10px;
+    text-align: center;
+    display: none;
+}
+
+.calendar .warning {
+    display: none;
 }
 
 .calendar a, a:visited {
@@ -50,8 +71,21 @@ textarea {
     box-shadow: none;
 }
 
-.calendar-input td {
-    padding: 4px;
+.result-table td {
+    width: 300px;
+    padding: 0px 0px 10px 0px;
+}
+
+.result-table {
+    display: none;
+}
+
+.density-profile {
+    display: none;
+}
+
+.pressure-profile {
+    display: none;
 }
 
 .jumboplain {
@@ -104,8 +138,6 @@ textarea {
     text-decoration: none;
     color: black;
 }
-
-
 
 .resume a:hover, .highlight a:hover {
     color: crimson;

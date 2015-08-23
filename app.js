@@ -1,6 +1,26 @@
 var main = function() {
-    $('.button a').click(function() {
-        $('.image').attr('src', '/trial 3.png');
+    $('.model a').click(function() {
+        var value = $('textarea').val().length;
+        if (value === 0) {
+            $('.warning').show();
+        }
+        else {
+            $('.warning').hide();
+            $('.filler').animate({width: '0px'}, 400);
+            $('.loading').fadeIn(1000);
+            $('.loading').delay(3000).fadeOut(10);
+            $('.result').delay(3980).animate({width: '600px'}, 400);
+            $('.result-table').show(3980);
+            $(this).text('Try again');
+        }
+    });
+    $('.pressure a').click(function() {
+        $('.pressure-profile').show();
+        $('.density-profile').hide();
+    });
+    $('.density a').click(function() {
+        $('.density-profile').show();
+        $('.pressure-profile').hide();
     });
 };
 
