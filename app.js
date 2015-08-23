@@ -10,7 +10,7 @@ var main = function() {
             $('.loading').fadeIn(1000);
             $('.loading').delay(3000).fadeOut(10);
             $('.result').delay(3980).animate({width: '600px'}, 400);
-            $('.result-table').show(3980);
+            $('.result-table').delay(4100).show(0);
             $(this).text('Try again');
         }
     });
