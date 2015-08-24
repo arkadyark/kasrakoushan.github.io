@@ -25,20 +25,26 @@
                 </tr>
             </table>
             <p> Enter the mass and radius measurements for a given planet to find estimates of its pressure and density profiles.</p>
-            <div class="calendar-input">
-                <table align="center">
+            <div align="center" class="calendar-input">
+                <table>
                     <tr>
                         <td> <p> Mass: </p> </td>
-                        <td> <textarea rows="1" cols="8"> </textarea> </td>
+                        <td> <textarea rows="1" cols="8"></textarea> </td>
                         <td> <p> ± </p> </td>
-                        <td> <textarea rows="1" cols="8"> </textarea> </td>
+                        <td> <textarea rows="1" cols="8"></textarea> </td>
                         <td> <p>$$M_{\oplus}$$</p> </td>
+                        <td rowspan="2">
+                            <form>
+                                <input id="rock" type="radio" name="modeltype" value="rock" checked> Rock <br>
+                                <input id="gas" type="radio" name="modeltype" value="gas"> Gas
+                            </form>
+                        </td>
                     </tr>
                     <tr>
                         <td> <p> Radius: </p> </td>
-                        <td> <textarea rows="1" cols="8"> </textarea> </td>
+                        <td> <textarea rows="1" cols="8"></textarea> </td>
                         <td> <p> ± </p> </td>
-                        <td> <textarea rows="1" cols="8"> </textarea> </td>
+                        <td> <textarea rows="1" cols="8"></textarea> </td>
                         <td> <p>$$R_{\oplus}$$</p> </td>
                     </tr>
                 </table>

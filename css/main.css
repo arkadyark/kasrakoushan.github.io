@@ -42,7 +42,7 @@ textarea {
 }
 
 .calendar .result {
-    width: 0px;
+    display: none;
 }
 
 .calendar .loading {
@@ -86,6 +86,15 @@ textarea {
 
 .pressure-profile {
     display: none;
+}
+
+form {
+    width: 70px;
+    padding-left: 50px;
+}
+
+form input {
+    margin: 8px;
 }
 
 .jumboplain {

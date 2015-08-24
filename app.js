@@ -1,26 +1,35 @@
 var main = function() {
     $('.model a').click(function() {
-        var value = $('textarea').val().length;
-        if (value === 0) {
+        var val1 = $('textarea').val().length;
+        if (val1===0) {
             $('.warning').show();
         }
         else {
+            if ($('.filler').css('display')==='none') {
+                var wait = 2600;
+            }
+            else {
+                var wait = 3000;
+            }
             $('.warning').hide();
-            $('.filler').animate({width: '0px'}, 400);
-            $('.loading').fadeIn(1000);
-            $('.loading').delay(3000).fadeOut(10);
-            $('.result').delay(3980).animate({width: '600px'}, 400);
-            $('.result-table').delay(4100).show(0);
+            $('.result-table').show();
+            $('.filler').slideUp(400);
+            $('.result').slideUp(400);
+            $('.pressure-profile').slideUp(400);
+            $('.density-profile').slideUp(400);
+            $('.loading').delay(400).slideDown(400);
+            $('.loading').delay(1800).slideUp(400);
+            $('.result').delay(wait).slideDown(400);
             $(this).text('Try again');
         }
     });
     $('.pressure a').click(function() {
-        $('.pressure-profile').show();
-        $('.density-profile').hide();
+        $('.pressure-profile').slideDown(300);
+        $('.density-profile').slideUp(300);
     });
     $('.density a').click(function() {
-        $('.density-profile').show();
-        $('.pressure-profile').hide();
+        $('.density-profile').slideDown(300);
+        $('.pressure-profile').slideUp(300);
     });
 };
 
