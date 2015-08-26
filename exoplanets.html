@@ -9,7 +9,7 @@
     <body>
         <div class="calendar">
             <h3 align="center"> Exoplanet Structure Explorer </h3>
-            <img class="filler" src="http://www.burrburton.org/wp-content/uploads/2015/06/exoplanet.jpg" />
+            <img class="filler" src="https://upload.wikimedia.org/wikipedia/commons/2/23/Kepler-452b_and_Earth_Size.jpg" />
             <div class="loading"> <p style="color:white"> Loading... </p> </div>
             <img class="result" src="trial%203.png"/>
             <table class="result-table">
@@ -24,35 +24,44 @@
                     </td>
                 </tr>
             </table>
-            <p> Enter the mass and radius measurements for a given planet to find estimates of its pressure and density profiles.</p>
+            <p style="margin: 0 20px 0 20px"> Enter the mass and radius measurements for a given planet to find estimates of its pressure and density profiles.</p>
             <div align="center" class="calendar-input">
                 <table>
                     <tr>
                         <td> <p> Mass: </p> </td>
-                        <td> <textarea rows="1" cols="8"></textarea> </td>
+                        <td> <textarea rows="1" cols="8" id="input1"></textarea> </td>
                         <td> <p> ± </p> </td>
-                        <td> <textarea rows="1" cols="8"></textarea> </td>
+                        <td> <textarea rows="1" cols="8" id="input2"></textarea> </td>
                         <td> <p>$$M_{\oplus}$$</p> </td>
-                        <td rowspan="2">
-                            <form>
-                                <input id="rock" type="radio" name="modeltype" value="rock" checked> Rock <br>
-                                <input id="gas" type="radio" name="modeltype" value="gas"> Gas
-                            </form>
-                        </td>
                     </tr>
                     <tr>
                         <td> <p> Radius: </p> </td>
-                        <td> <textarea rows="1" cols="8"></textarea> </td>
+                        <td> <textarea rows="1" cols="8" id="input3"></textarea> </td>
                         <td> <p> ± </p> </td>
-                        <td> <textarea rows="1" cols="8"></textarea> </td>
+                        <td> <textarea rows="1" cols="8" id="input4"></textarea> </td>
                         <td> <p>$$R_{\oplus}$$</p> </td>
+                    </tr>
+                    <tr>
+                        <td colspan="5">
+                            <form>
+                                <input id="iron" type="radio" name="modeltype" value="rock" checked> Iron
+                                <input id="carbon" type="radio" name="modeltype" value="gas"> Carbon
+                                <input id="silicate" type="radio" name="modeltype" value="gas"> Silicate
+                                <input id="earth-like" type="radio" name="modeltype" value="gas"> Earth-like <br>
+                                <input id="gas" type="checkbox" name="modeltype" value="gas"> Include gas envelope
+                            </form>
+                        </td>
                     </tr>
                 </table>
             </div>
             <div class="warning"> <p style="color:red" align="center"> Please try again. Not all fields were filled.</p> </div>
             <div class="button model">
-                <a href="#"> Submit </a>
+                <a> Submit </a>
             </div>
+        </div>
+        
+        <div style="width: 550; margin: 0 auto 10px auto;">
+            <em>Banner image by NASA, reproduced with permission under the public domain.</em>
         </div>
         <script src="jquery-1.11.3.js"></script>
         <script src="app.js"></script>

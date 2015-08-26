@@ -1,7 +1,11 @@
 var main = function() {
     $('.model a').click(function() {
-        var val1 = $('textarea').val().length;
-        if (val1===0) {
+        var val1 = $('#input1').val().length;
+        var val2 = $('#input2').val().length;
+        var val3 = $('#input3').val().length;
+        var val4 = $('#input4').val().length;
+        if (val1===0 || val2===0 || 
+            val3===0 || val4===0) {
             $('.warning').show();
         }
         else {
